@@ -1,6 +1,6 @@
 {
     "name": "Kyutech Syllabus Analyzer (Safety version)",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "manifest_version": 2,
     "content_scripts": [
         {
