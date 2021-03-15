@@ -1,1 +1,1 @@
-# kyutech-syllabus-getter-safety-
+# kyutech-syllabus-analyzer-safety
