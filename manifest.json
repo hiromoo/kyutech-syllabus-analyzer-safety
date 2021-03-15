@@ -1,0 +1,29 @@
+{
+    "name": "Kyutech Syllabus Analyzer",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://edragon-syllabus.jimu.kyutech.ac.jp/guest/syllabuses*"
+            ],
+            "js": [
+                "jquery-3.6.0.min.js",
+                "content.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "ic_launcher_calendar.png",
+        "48": "ic_launcher_calendar.png",
+        "128": "ic_launcher_calendar.png"
+    }
+}
